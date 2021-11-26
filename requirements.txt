@@ -1,0 +1,23 @@
+appdirs==1.4.4
+attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+black==19.10b0
+certifi==2021.10.8
+click==8.0.3
+colorama==0.4.4
+Flask==2.0.2
+Flask-SQLAlchemy==2.5.1
+greenlet==1.1.2
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+mypy-extensions==0.4.3
+mysqlclient==2.1.0
+pathspec==0.7.0
+python-dotenv==0.19.2
+regex @ file:///C:/ci/regex_1628063427816/work
+SQLAlchemy==1.4.27
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+typed-ast @ file:///C:/ci/typed-ast_1624953797214/work
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+Werkzeug==2.0.2
+wincertstore==0.2
