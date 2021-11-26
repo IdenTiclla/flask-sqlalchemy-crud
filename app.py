@@ -4,8 +4,9 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root@localhost/contactsdb'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root@localhost/contactsdb"
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 SQLAlchemy(app)
 
